@@ -6,7 +6,7 @@ const {criar, atualizar, remover,  listar} = require("./module.js")
 
 while (true) {
     console.log(
-      "O que deseja fazer?\n1 - Criar\n2 - Atualizar\n3 - Remover\n4 - Listar\n5 -  Sair\n",
+      "O que deseja fazer?\n1 - Criar\n2 - Atualizar\n3 - Remover\n4 - Listar\n5 - Sair\n",
     );
 
 let opcao = +prompt ("O que deseja fazer?")
